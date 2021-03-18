@@ -1,0 +1,41 @@
+#small-caps {
+  font-variant-caps: small-caps;
+}
+
+#all-small-caps {
+  font-variant-caps: all-small-caps;
+}
+
+#petite-caps {
+  font-variant-caps: petite-caps;
+}
+
+#all-petite-caps {
+  font-variant-caps: all-petite-caps;
+}
+
+
+hr.topheader {
+  border-top: 4px solid black;
+}
+
+
+.latex span:nth-child(1) {
+  text-transform: none;
+  font-size: 2em;
+  vertical-align: 0em;
+  margin-left: 0em;
+  margin-right: -0.1em;
+  line-height: 1ex;
+}
+
+
+/* .cap span::first-letter {
+  color: red;
+  font-weight: bold;
+} */
+p span { display: inline-block}
+p span::first-letter {
+  font-weight: bold;
+  font-size: 120%;
+}
